@@ -13,5 +13,57 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Fichiers d%27en-tête\mge">
+      <UniqueIdentifier>{77d339ee-79e1-4cf8-ac03-60a47a14211b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\mge\core">
+      <UniqueIdentifier>{d2b06e7b-3e75-46f1-8beb-8917296ecf9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\mge\core\internal">
+      <UniqueIdentifier>{e2768f7e-b392-4834-9eda-e7c570476929}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\mge">
+      <UniqueIdentifier>{bb90b152-ab2a-4b11-9576-88a3e09b650a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\mge\core">
+      <UniqueIdentifier>{507c9486-1d2d-4857-bfcc-77fc1cc467b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\mge\core\internal">
+      <UniqueIdentifier>{2f7b4c4f-e77e-4670-9dbf-abced63d90fc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\nora.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="include\mge\export.hpp">
+      <Filter>Fichiers d%27en-tête\mge</Filter>
+    </ClInclude>
+    <ClInclude Include="include\mge\Application.hpp">
+      <Filter>Fichiers d%27en-tête\mge</Filter>
+    </ClInclude>
+    <ClInclude Include="include\mge\IRenderContext.hpp">
+      <Filter>Fichiers d%27en-tête\mge\core</Filter>
+    </ClInclude>
+    <ClInclude Include="include\mge\SpriteBatch.hpp">
+      <Filter>Fichiers d%27en-tête\mge\core</Filter>
+    </ClInclude>
+    <ClInclude Include="include\config.hpp">
+      <Filter>Fichiers d%27en-tête\mge</Filter>
+    </ClInclude>
+    <ClInclude Include="include\mge\IDrawable.hpp">
+      <Filter>Fichiers d%27en-tête\mge</Filter>
+    </ClInclude>
+    <ClInclude Include="include\mge\core\internal\SDLRenderContext.hpp">
+      <Filter>Fichiers d%27en-tête\mge\core\internal</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\mge\Application.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mge\core\internal\SDLRenderContext.cpp">
+      <Filter>Fichiers sources\mge\core\internal</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
